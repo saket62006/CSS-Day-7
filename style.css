@@ -1,0 +1,96 @@
+.main{
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+.card1{
+    height: 300px;
+    width: 200px;
+    background-color: red;
+}
+
+.card2{
+    height: 300px;
+    width: 200px;
+    background-color: darkgreen;
+}
+
+.card3{
+    height: 300px;
+    width: 200px;
+    background-color: brown;
+}
+
+.card4{
+    height: 300px;
+    width: 200px;
+    background-color: blueviolet;
+}
+
+
+/* ---------------------------------------------Align Items------------------------------------- */
+
+.abc{
+    display: flex;
+    align-items: end;
+    height: 350px;
+    width: 250px;
+    background-color: black;
+}
+
+.abc1{
+    height: 150px;
+    width: 100px;
+    background-color: brown;
+}
+
+.abc2{
+    height: 80px;
+    width: 60px;
+    background-color: aqua;
+}
+
+.abc3{
+    height: 120px;
+    width: 80px;
+    background-color: blue;
+}
+
+
+/* ---------------------------------------------------Align Self---------------------------------------------- */
+
+.Item{
+    display: flex;
+    height: 300px;
+    width: 300px;
+    background-color: black;
+    align-items: flex-start;
+}
+
+.item1{
+    height: 50px;
+    width: 40px;
+    background-color: aqua;
+    align-self: center;
+}
+
+.item2{
+    height: 80px;
+    width: 60px;
+    background-color: brown;
+    align-self: end;
+}
+
+.item3{
+    height: 120px;
+    width: 100px;
+    background-color: blue;
+    align-self: baseline;
+}
+
+.item4{
+    height: 100px;
+    width: 80px;
+    background-color: darkgreen;
+    align-self: first baseline;
+}
